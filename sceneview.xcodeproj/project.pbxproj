@@ -7,18 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		483FD14C27D9D09800F25D30 /* 3dObjects in Resources */ = {isa = PBXBuildFile; fileRef = 483FD14B27D9D09800F25D30 /* 3dObjects */; };
 		48A0FCC127D889D200ABDB89 /* sceneviewApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48A0FCC027D889D200ABDB89 /* sceneviewApp.swift */; };
 		48A0FCC327D889D200ABDB89 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48A0FCC227D889D200ABDB89 /* ContentView.swift */; };
 		48A0FCC527D889D300ABDB89 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 48A0FCC427D889D300ABDB89 /* Assets.xcassets */; };
 		48A0FCC827D889D300ABDB89 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 48A0FCC727D889D300ABDB89 /* Preview Assets.xcassets */; };
+		48A0FCD727D893D200ABDB89 /* SceneKit Scene.scn in Resources */ = {isa = PBXBuildFile; fileRef = 48A0FCD627D893D200ABDB89 /* SceneKit Scene.scn */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		483FD14B27D9D09800F25D30 /* 3dObjects */ = {isa = PBXFileReference; lastKnownFileType = folder; path = 3dObjects; sourceTree = "<group>"; };
 		48A0FCBD27D889D200ABDB89 /* sceneview.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = sceneview.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		48A0FCC027D889D200ABDB89 /* sceneviewApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sceneviewApp.swift; sourceTree = "<group>"; };
 		48A0FCC227D889D200ABDB89 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		48A0FCC427D889D300ABDB89 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		48A0FCC727D889D300ABDB89 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		48A0FCD627D893D200ABDB89 /* SceneKit Scene.scn */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = "SceneKit Scene.scn"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,8 +55,10 @@
 		48A0FCBF27D889D200ABDB89 /* sceneview */ = {
 			isa = PBXGroup;
 			children = (
+				483FD14B27D9D09800F25D30 /* 3dObjects */,
 				48A0FCC027D889D200ABDB89 /* sceneviewApp.swift */,
 				48A0FCC227D889D200ABDB89 /* ContentView.swift */,
+				48A0FCD627D893D200ABDB89 /* SceneKit Scene.scn */,
 				48A0FCC427D889D300ABDB89 /* Assets.xcassets */,
 				48A0FCC627D889D300ABDB89 /* Preview Content */,
 			);
@@ -125,7 +131,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				48A0FCD727D893D200ABDB89 /* SceneKit Scene.scn in Resources */,
 				48A0FCC827D889D300ABDB89 /* Preview Assets.xcassets in Resources */,
+				483FD14C27D9D09800F25D30 /* 3dObjects in Resources */,
 				48A0FCC527D889D300ABDB89 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -269,6 +277,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"sceneview/Preview Content\"";
+				DEVELOPMENT_TEAM = X8UAQWJ2PH;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -297,6 +306,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"sceneview/Preview Content\"";
+				DEVELOPMENT_TEAM = X8UAQWJ2PH;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;

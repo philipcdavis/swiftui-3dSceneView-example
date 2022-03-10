@@ -6,11 +6,19 @@
 //
 
 import SwiftUI
+import SceneKit
 
 struct ContentView: View {
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        VStack {
+            SceneView(scene: SCNScene(named: "3dObjects/lowpoly.scn"), options: [.autoenablesDefaultLighting, .allowsCameraControl])
+            SceneView(scene: SCNScene(named: "3dObjects/midpoly.scn"), options: [.autoenablesDefaultLighting, .allowsCameraControl])
+                
+                SceneView(scene: SCNScene(named: "3dObjects/lowpoly2.scn"), options: [.autoenablesDefaultLighting, .allowsCameraControl])
+                    
+            
+                
+        }
     }
 }
 
